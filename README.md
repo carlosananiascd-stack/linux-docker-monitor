@@ -38,3 +38,23 @@ linux-docker-monitor/
 ├── Dockerfile
 ├── .gitignore
 └── README.md
+## Exemplo de saída
+
+```text
+======================================
+       MONITORAMENTO DO SERVIDOR
+======================================
+
+HOSTNAME
+--------------------------------------
+servidor-linux
+
+MEMÓRIA
+--------------------------------------
+total        used        free
+3.5Gi        624Mi       2.2Gi
+
+ARMAZENAMENTO
+--------------------------------------
+Filesystem      Size  Used  Avail
+/dev/sdd        1007G  4.1G  952G 
