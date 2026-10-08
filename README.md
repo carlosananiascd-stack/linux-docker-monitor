@@ -25,6 +25,35 @@ O script pode ser executado diretamente no Linux ou dentro de um container Docke
 - Docker
 - Git
 - GitHub
+- Docker Compose
+
+## Docker Compose
+
+O projeto também pode ser executado utilizando Docker Compose.
+
+Para iniciar o monitoramento:
+
+```bash
+docker compose up
+```
+
+Para verificar o container:
+
+```bash
+docker compose ps -a
+```
+
+Para visualizar os logs:
+
+```bash
+docker compose logs
+```
+
+Para encerrar os recursos criados pelo Compose:
+
+```bash
+docker compose down
+```
 
 ## Estrutura do projeto
 
@@ -38,6 +67,8 @@ linux-docker-monitor/
 ├── Dockerfile
 ├── .gitignore
 └── README.md
+```
+
 ## Exemplo de saída
 
 ```text
