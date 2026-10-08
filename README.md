@@ -1,0 +1,40 @@
+# Linux Docker Monitor
+
+Projeto prático de monitoramento de um ambiente Linux utilizando Bash e Docker.
+
+## Sobre o projeto
+
+Este projeto executa um script Bash responsável por coletar informações básicas do sistema, como:
+
+- Hostname
+- Data e hora
+- Memória RAM
+- Armazenamento
+- Processos em execução
+- Quantidade de processos
+- Status do Docker
+- Containers ativos
+- Informações de rede
+
+O script pode ser executado diretamente no Linux ou dentro de um container Docker.
+
+## Tecnologias utilizadas
+
+- Linux
+- Bash
+- Docker
+- Git
+- GitHub
+
+## Estrutura do projeto
+
+```text
+linux-docker-monitor/
+├── app/
+│   └── monitor.sh
+├── config/
+├── logs/
+│   └── .gitkeep
+├── Dockerfile
+├── .gitignore
+└── README.md
