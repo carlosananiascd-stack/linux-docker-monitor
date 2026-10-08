@@ -1,0 +1,5 @@
+services:
+  monitor:
+    build: .
+    container_name: linux-monitor-compose
+    restart: "no"
